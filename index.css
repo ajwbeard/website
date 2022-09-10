@@ -2,28 +2,39 @@
   display: flex;
   position: fixed;
   width: 100%;
-  height: 80px;
+  height: 50px;
   background-color: #DEF3F6;
   justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.ghlink-container {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  justify-content: flex-end;
   align-items: center;
 }
 
 .about {
   display: flex;
   width: 100%;
-  height: 380px;
+  height: 350px;
   background-color: #76B6C4;
   justify-content: center;
-  align-items: center;
-  position: relative;
+  align-items: flex-end;
+  margin: 0px;
 }
 
 .central-container {
   display: flex;
   width: 50%;
+  height: 300px;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .about-text-container {
@@ -31,6 +42,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   padding: 0px 30px;
+  margin: 0px;
 }
 
 .body-content {
@@ -41,16 +53,18 @@
   background-color: #def3f6;
   justify-content: flex-start;
   align-items: center;
+  margin: 0px;
 }
 
 .body-central-container {
   display: flex;
   width: 75%;
   flex-direction: column;
+  margin: 0px;
 }
 
-a {
-  text-decoration: none;
+a.ghlogo {
+  padding-right: 30px;
 }
 
 embed.resume {
@@ -60,7 +74,7 @@ embed.resume {
 h1 {
   font-family: "Big Caslon", "Times New Roman", Times, serif;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 24px;
 }
 
 h1.portfolio {
@@ -80,6 +94,6 @@ hr {
 }
 
 p {
-  font-family: "Brandon Groteque", "Helvetica now";
+  font-family: "Public Sans", Helvetica;
   font-size: 15px;
 }
