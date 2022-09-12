@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 .name {
   display: flex;
   position: fixed;
@@ -6,7 +11,6 @@
   background-color: #DEF3F6;
   justify-content: center;
   align-items: center;
-  margin: 0px;
 }
 
 .ghlink-container {
@@ -25,7 +29,6 @@
   background-color: #76B6C4;
   justify-content: center;
   align-items: flex-end;
-  margin: 0px;
 }
 
 .central-container {
@@ -42,33 +45,31 @@
   flex-wrap: wrap;
   flex-direction: column;
   padding: 0px 30px;
-  margin: 0px;
 }
 
 .body-content {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 700px;
+  height: 1200px;
   background-color: #def3f6;
   justify-content: flex-start;
   align-items: center;
-  margin: 0px;
 }
 
 .body-central-container {
   display: flex;
   width: 75%;
   flex-direction: column;
-  margin: 0px;
 }
 
 a.ghlogo {
   padding-right: 30px;
+  border-radius: 50%;
 }
 
 embed.resume {
-  height: 500px;
+  height: 1000px;
 }
 
 h1 {
@@ -78,7 +79,7 @@ h1 {
 }
 
 h1.portfolio {
-  padding: 15px 0px 0px 0px;
+  padding: 15px 0px;
   color: #064273;
 }
 
@@ -86,11 +87,21 @@ h2 {
   font-family: "Big Caslon", "Times New Roman", Times, serif;
   font-weight: normal;
   color: #064273;
+  padding: 15px 0px;
 }
 
 hr {
   width: 75%;
   color: #064273;
+}
+
+img.ghlogo {
+  opacity: 0.5;
+  border-radius: 50%;
+}
+
+img.ghlogo:hover {
+  opacity: 1;
 }
 
 p {
