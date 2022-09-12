@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Andrew Beard</title>
   <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+  <script src="index.js"></script>
 </head>
 <body>
   <div class="name">
@@ -37,7 +38,12 @@
     <hr>
     <div class="body-central-container">
       <h2>Resume:</h2>
-      <embed class="resume" src="Files/resume.pdf"/>
+      <a href="Files/resume.pdf" download>
+        <p>Download PDF (106KB)
+      </a>
+      <div id="resume">
+        <button class="expand-collapse"><img src="Images/expand.png" onclick="expand()"/></button>
+      </div>
     </div>
   </div>
 </body>
