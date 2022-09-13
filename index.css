@@ -80,6 +80,13 @@ button.expand-collapse:hover {
   opacity: 0.5;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #064273;
+}
+
 h1 {
   font-family: "Big Caslon", "Times New Roman", Times, serif;
   font-weight: normal;
@@ -123,6 +130,11 @@ img.resume {
 }
 
 p {
-  font-family: "Public Sans", Helvetica;
+  font-family: "Courier", Helvetica, sans-serif;
   font-size: 15px;
+}
+
+p.footer {
+  color: #def3f6;
+  font-family: Helvetica, sans-serif;
 }
