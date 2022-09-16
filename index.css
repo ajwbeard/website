@@ -3,30 +3,21 @@
   padding: 0px;
 }
 
-.name {
+.links ul{
   display: flex;
-  position: fixed;
-  width: 100%;
-  height: 50px;
-  background-color: #DEF3F6;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  list-style: none;
 }
 
-.ghlink-container {
-  display: flex;
-  position: fixed;
-  width: 100%;
-  height: 50px;
-  justify-content: flex-end;
-  align-items: center;
+.links li {
+  margin: 0px 5px;
 }
 
 .about {
   display: flex;
   width: 100%;
   height: auto;
-  background-color: #76B6C4;
+  /* background-image: url("Images/cyan-fabric.jpeg"); */
   justify-content: center;
   align-items: flex-end;
 }
@@ -38,7 +29,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 50px 0px 0px 0px;
 }
 
 .about-text-container {
@@ -53,9 +43,10 @@
   flex-direction: column;
   width: 100%;
   height: auto;
-  background-color: #def3f6;
+  background-image: url("Images/jpeg_medium.jpeg");
   justify-content: flex-start;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .body-central-container {
@@ -64,8 +55,16 @@
   flex-direction: column;
 }
 
-a.ghlogo {
-  padding-right: 30px;
+.postmastr {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  font-size: 12px;
+}
+
+a.logo {
   border-radius: 50%;
 }
 
@@ -85,38 +84,57 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #064273;
+  background-color: #76B6C4;
+  height: 30px;
 }
 
 h1 {
   font-family: "Big Caslon", "Times New Roman", Times, serif;
   font-weight: normal;
   font-size: 24px;
+  /* color: #064273; */
 }
 
 h1.portfolio {
-  padding: 15px 0px;
+  margin-top: 30px;
+}
+
+h1.name {
   color: #064273;
 }
 
 h2 {
   font-family: "Big Caslon", "Times New Roman", Times, serif;
   font-weight: normal;
-  color: #064273;
-  padding: 15px 0px 0px 0px;
+  /* color: #064273; */
+  padding: none;
+  margin-top: 15px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #def3f6;
+  border-bottom: 1px solid gray;
 }
 
 hr {
   width: 75%;
-  color: #064273;
+  border: none;
+  height: 1px;
+  background-color: #064273;
+  margin: 30px 0px;
 }
 
-img.ghlogo {
+img.logo {
   opacity: 0.5;
   border-radius: 50%;
 }
 
-img.ghlogo:hover {
+img.logo:hover {
   opacity: 1;
 }
 

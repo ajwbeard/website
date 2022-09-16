@@ -8,42 +8,60 @@
   <title>Andrew Beard</title>
   <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
   <script src="index.js"></script>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
 </head>
 <body>
-  <div class="name">
-    <header>
-      <h1>ANDREW BEARD</h1>
-    </header>
-  </div>
-  <div class="ghlink-container">
-    <a class="ghlogo" href="https://github.com/ajwbeard" target="_blank">
-      <img class="ghlogo" src="Images/ghlogo.png" />
-    </a>
-  </div>
-  <div class="about">
-    <div class="central-container">
-      <img class="profile" src="Images/profile.PNG"/>
-      <div class="about-text-container">
-        <p>
-          Hi! My name is Andrew. I love developing software, managing data, and
-          learning new things. Check out my portfolio to see what I have done!<br><br>
-        Contact:<br>
-          <a href="mailto: andrew.beardjw@gmail.com">andrew.beardjw@gmail.com</a><br>
-          <a href="https://www.linkedin.com/in/andrew-jw-beard/" target="_blank">LinkedIn</a>
+  <header>
+      <h1 class="name">ANDREW BEARD</h1>
+      <div class="links">
+        <ul>
+          <li>
+            <a class="logo" href="https://github.com/ajwbeard" target="_blank">
+              <img class="logo" src="Images/ghlogo.png" />
+            </a>
+          </li>
+          <li>
+            <a class="logo" href="https://www.linkedin.com/in/andrew-jw-beard/" target="_blank">
+              <img class="logo" src="Images/lilogo.png" />
+            </a>
+          </li>
+        </ul>
+      </div>
+  </header>
+  <div class="body-content">
+    <div class="about">
+      <div class="central-container">
+        <img class="profile" src="Images/profile.PNG"/>
+        <div class="about-text-container">
+          <p>
+            Hi! My name is Andrew. I am a recent Computer Science graduate with a
+            passion for developing software, managing data, and learning new
+            things. Check out my portfolio to see what I have done!<br><br>
+            Contact:<br>
+            <a href="mailto: andrew.beardjw@gmail.com" target="_blank">andrew.beardjw@gmail.com</a><br>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="body-content">
     <h1 class="portfolio">PORTFOLIO</h1>
     <hr>
     <div class="body-central-container">
       <h2>Resume:</h2>
       <a href="Files/resume.pdf" download="Andrew Beard Resume">
-        <p style="font-size: 12px; font-family: Helvetica, sans-serif;">Download PDF (106KB)
+        <p>Download PDF (103KB)
       </a>
       <div id="resume">
-        <button class="expand-collapse"><img src="Images/collapse.png" onclick="collapse()"/></button>
-        <img class="resume" src="Files/resume.png"/>
+        <!-- resume collapses and expands, contents found in index.js -->
+      </div>
+    </div>
+    <hr>
+    <div class="body-central-container">
+      <h2>Postmastr:</h2>
+      <p>Technologies: Apache Cordova, JavaScript, HTML, CSS<br>
+        <a href="https://github.com/kattmeller/Postmastr" target="_blank">GitHub</a><br>
+        <a href="https://trello.com/b/IUWLAxde/postmastr" target="_blank">Trello</a><br>
+        <a href="https://prod.teamgantt.com/gantt/schedule/?ids=2800207&public_keys=h2Voy0GmMyuu#&ids=2800207" target="_blank">Gantt</a><br>
+      <div id="postmastr">
+        <!-- postmastr collapses and expands, contents found in index.js -->
       </div>
     </div>
   </div>
