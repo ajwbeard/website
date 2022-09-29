@@ -20,13 +20,13 @@ const postmastr = `
 window.onload = function() {
   document.getElementById('resume').innerHTML = collapseButton1;
   document.getElementById('resume').innerHTML += resume;
-  $("#collapse-btn1").click(function() {
+  $("#collapse-btn1").on('click', function() {
     collapse('resume', "expand-btn1", 'collapse-btn1', expandButton1, collapseButton1, resume);
   });
 
   document.getElementById('postmastr').innerHTML = collapseButton2;
   document.getElementById('postmastr').innerHTML += postmastr;
-  $("#collapse-btn2").click(function() {
+  $("#collapse-btn2").on('click', function() {
     collapse('postmastr', "expand-btn2", 'collapse-btn2', expandButton2, collapseButton2, postmastr);
   });
 };
